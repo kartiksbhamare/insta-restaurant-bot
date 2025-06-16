@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+console.log('\n🚀 Starting Insta Restaurant Bot Frontend...');
+console.log('----------------------------------------');
+console.log('✅ React Application initialized');
+console.log('🌐 Frontend URL: http://localhost:3000');
+console.log('🔌 Connected to Backend: http://localhost:5000');
+console.log('----------------------------------------\n');
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
