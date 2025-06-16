@@ -1,3 +1,31 @@
+# InstaChef - Automated Instagram Posting for Restaurants
+
+**InstaChef** is a smart web app that automatically generates and posts engaging content on Instagram for restaurants. It is designed for restaurant owners who want to grow their online presence without hiring a social media team.
+
+## 🔥 Features
+
+- ✨ Automated daily Instagram posts
+- 📸 AI/stock image-based content generation
+- 🧠 Smart caption templates tailored to cuisine type
+- 📅 Dashboard for template selection and post preview
+- 🔐 Firebase Auth for login/signup
+- ☁️ Firestore for restaurant data and content storage
+- 🚀 Instagram Graph API integration (coming soon)
+
+## 🧱 Stack
+
+- **Frontend**: React + Tailwind + Firebase Auth + Firestore
+- **Backend**: Node.js + Express + Firebase Admin SDK
+- **Media**: Pexels API (images), OpenAI (captions), Shotstack (videos)
+- **Auth & Storage**: Firebase
+- **Scheduling**: Firebase Cloud Functions
+
+## 💡 Use Case
+
+> A restaurant owner signs up, selects a post template once, and the system auto-generates & posts engaging content daily to Instagram — all hands-free.
+
+---
+
 # Insta Restaurant Bot Frontend
 
 This is the frontend application for the Insta Restaurant Bot, built with React, TypeScript, and Material-UI.

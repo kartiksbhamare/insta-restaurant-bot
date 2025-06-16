@@ -2,17 +2,18 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
-import TestFirebase from './components/TestFirebase';
+import LandingPage from './pages/LandingPage';
+import SignupPage from './pages/SignupPage';
 
 // Create theme
 const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#1976d2',
+      main: '#6366f1', // Tailwind indigo-500
     },
     secondary: {
-      main: '#dc004e',
+      main: '#8b5cf6', // Tailwind purple-500
     },
   },
 });
@@ -23,12 +24,8 @@ function App() {
       <CssBaseline />
       <Router>
         <Routes>
-          <Route path="/" element={
-            <div>
-              <h1>Welcome to Insta Restaurant Bot</h1>
-              <TestFirebase />
-            </div>
-          } />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/signup" element={<SignupPage />} />
         </Routes>
       </Router>
     </ThemeProvider>
